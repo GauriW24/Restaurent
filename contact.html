@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">  
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="image/p2.jpg" class="rounded-circle " width="60px" height="60px" style="margin-left: 50px;"></a>
+        <button class="navbar-toggler  navbar-custom custom-toggler"  style="color: #bfbfbf" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>Menu
+        </button>
+        <div class="collapse navbar-collapse"  id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" >
+                <a class="nav-link" href="index.html"> Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Services</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact </a>
+                </li>   
+          </ul>
+        </div>  
+</nav>
+
+
+<div class="abt-container" >
+    <h1 style="color: ghostwhite; padding-top: 300px; text-align: center;"><a href="#" style="text-decoration: none; color: white;">Contact us</a></h1>
+</div>
+
+<section class="contact-page-sec" id="cont">
+    <div class="cont_container">
+      <div class="row" >
+        <div class="col-md-4" >
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marked"></i>
+              </div>
+              <div class="contact-info-text" >
+                <h2>Address</h2>
+                <span> E-Square</span> 
+                <span>Pimple Saudagar, Pune</span> 
+              </div>
+            </div>            
+          </div>          
+        </div>          
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>E-mail</h2>
+                <span>crostapizza@gmail.com</span> 
+                <span>crostapizzasupport@gmail.com</span> 
+
+              </div>
+            </div>            
+          </div>                
+        </div>                
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>office time</h2>
+                <span>Monday - Saturday</span>
+                <span>10.00 am - 11.00 pm</span>
+              </div>
+            </div>            
+          </div>          
+        </div>          
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="contact-page-form" method="post">
+            <h2 style="font-size: 30px;">Contact us</h2> 
+            <form action="contact-mail.php" method="post" >
+              <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="single-input-field">
+                  <input type="text" placeholder="Your Name" name="name" style="background: transparent; color:cornsilk;">
+                </div>
+              </div>  
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="single-input-field">
+                  <input type="email" placeholder="E-mail" name="email" required style="background: transparent; color:cornsilk;">
+                </div>
+              </div>                              
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="single-input-field">
+                  <input type="text" placeholder="Phone Number" name="phone" style="background: transparent; color:cornsilk;">
+                </div>
+              </div>  
+                           
+              <div class="col-md-12 message-input">
+                <div class="single-input-field">
+                  <textarea  placeholder="Write Your Message" name="message" style="background: transparent; color:cornsilk;"></textarea>
+                </div>
+              </div>                                                
+              <div class="single-input-fieldsbtn">
+                <input type="submit" value="Send Now"/>
+              </div>                          
+            </div>
+            </form>   
+          </div>      
+        </div>
+        <div class="col-md-4" >        
+          <div class="contact-page-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.25764433527!2d73.79390887572723!3d18.593666685624495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b91b0dd95daf%3A0xa6cb6e3796a09978!2sPimple%20Saudagar%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1647169332405!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>          </div>          
+        </div>        
+      </div>
+    </div>
+  </section>
+
+
+
+<div class="footer_container" style="background-color:#263238; height: 300px;">
+    <ul class="foote_bottom_ul_amrc" >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#cont">Contact</a></li>
+    </ul>
+    <p class="text-center" style="color:aliceblue;">Copyright @2022 | Designed by <a href="#">Gauri</a></p>
+
+        <ul class="social_footer_ul" style="margin-left: 600px;">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+</div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/11bb967a6e.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
